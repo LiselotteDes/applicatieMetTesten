@@ -45,7 +45,7 @@ public class JaarTest {
 	public void eenJaarDeelbaarDoor100IsGeenSchrikkeljaar() {
 //		Assert.assertEquals(false, new Jaar(1900).isSchrikkeljaar());
 //		Assert.assertFalse(new Jaar(1990).isSchrikkeljaar());
-		assertFalse(new Jaar(1990).isSchrikkeljaar());
+		assertFalse(new Jaar(1900).isSchrikkeljaar());
 	}
 	@Test
 	public void eenJaarDeelbaarDoor4IsEenSchrikkeljaar() {
